@@ -8,6 +8,59 @@
 
 <body>
 	<!-- the entire body must be written by student -->
+	<header>
+		<h1>Signup Form Car</h1>
+	</header>
+	<main>
+	<form action="submit_feedback.php" method="post">
+	  <div>
+	     <label for="name">Name</label>
+	     <input type="text" id="name" placeholder="Name" name="Name" required>
+	  </div>
+	  <div>
+		 <label for="email">Email</label>
+		 <input type="email" id="email" placeholder="Email" name="Email" required>
+	 </div>
+	 <div>
+			 <label for="gender_m">Male</label>
+		     <input type="radio" id="gender_m" name="Gender" required>
+	         <label for="gender_"f>Female</label>
+		     <input type="radio" id="gender_f" name="Gender" required>
+	         
+	</div>
+		<div>
+			 <label for="cars">Car Brands</label>
+             <select name="Car Brands" id="cars" placeholder="--Please choose an option--" required>
+                 <option value="volvo">Volvo</option>
+                 <option value="saab">Saab</option>
+                 <option value="mercedes">Mercedes</option>
+                 <option value="audi">Audi</option>
+            </select>
+ 		</div>
+		<div>
+			 <label for="age">Age</label>
+			<input type="number" id="age" name="Age"placeholder="Age" required>
+		</div>
+		<div>
+			 <label for="dob">DOB</label>
+			<input type="date" id="dob" name="DOB"  required>
+		</div>
+		<div>
+			 <label for="tel">Phone Number</label>
+			<input type="tel" id="tel" name="Phone Number"  placeholder="xxx-xxx-xxxx" >
+		</div>
+		<div>
+			 <label for="password">Password</label>
+			<input type="password" id="password" name="Password"  placeholder="Password" required>
+		</div>
+		<div>
+			 <label for="tos">I agree to the TOS</label>
+			<input type="checkbox" id="tos" name="TOS"  required>
+		</div>
+		
+		<button type="submit">Submit</button>
+	</form>
+		</main>
     <script type="text/javascript" src="./script.js">
 </script>
 
